@@ -1,0 +1,149 @@
+body{
+    font-family:'Montserrat ', serif ;
+    text-align: center; 
+}
+h1{
+    text-align: left;
+}
+h2{
+    font-size: 3rem;
+}
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* similar sections */
+.big-heading{
+    font-size: 3.5rem; 
+    line-height: 1.5; 
+}
+.white_color{
+    color:#fff
+}
+
+/* navbar section */
+.navbar{
+    padding-bottom:4.5rem;
+}
+ .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight:900;
+} 
+.nav-item{
+    padding: 0 18px;
+}
+.nav-item a{
+    color: rgba(255,255,255,.5);
+    font-size: large;
+}
+.button-download{
+    margin: 5% 2%;
+    position: relative;
+    right: 80px;
+}
+.button-download2{
+    margin: 5% 2%;
+}
+.phone-image {
+    position: relative;
+    transform: rotate(25deg); 
+     width: 65%; 
+     left: 0%;
+} 
+
+/* features section */
+#features{
+    position: relative;
+    padding: 10% 5% 0%;
+    background-color: #fff;
+    z-index: 1;
+    top: -180px;
+}
+.features-div h3{
+    font-size: 1.5rem;
+}
+.features-div p{
+    width: 60%;
+    margin: auto; 
+}
+.i-features{
+color: #ef8172;
+margin: 5% 0%;
+}
+.i-features:hover{
+    color: #ff4c68;
+}
+ 
+/* testimonials */
+#testimonials{
+    padding:8% 5%;
+    background-color: #ef8172;
+}
+#testimonials h2{
+    width: 80%;
+    margin: auto;
+}
+.image-testimonials{
+    width:10%;
+    border-radius: 50%;
+    margin:3%;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    margin-bottom: 5%;
+}
+.image-press{
+    width:15%;
+    margin: 20px 20px 40PX 20PX;
+
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+}
+.pricing-columns{
+    padding: 3% 3%;
+}
+
+/* call to action section*/
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 20%;
+}
+
+/* footer section */
+#footer{
+    padding: 5%;
+}
+.fa-footer{
+    padding-left: 2%;
+    padding-bottom:20px ;
+    text-decoration: none;
+    color: black;
+}
+.p-footer{
+    font-size:large;
+    position: relative;
+    left: 8px;
+}
+
+/* media queries */
+@media (max-width: 991px){
+    .container-fluid{
+    text-align: center;
+    }
+    .phone-image {
+        position: relative;
+        transform: rotate(25deg); 
+         width: 50%; 
+         margin: auto;
+         left:-5%;
+    } 
+}
